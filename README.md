@@ -2,7 +2,7 @@
 
 npm init -y
 
-nom i mongoose body-parser https ejs
+npm i mongoose body-parser https ejs express
 
 Run it:
 
