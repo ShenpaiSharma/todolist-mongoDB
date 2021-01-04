@@ -11,8 +11,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-//mongoose.connect('mongodb://localhost:27017/todolistDB', {useNewUrlParser: true, useUnifiedTopology: true});
-mongoose.connect('mongodb+srv://shenpai_sharma:17JE003089@cluster0.skz5k.mongodb.net/todolistDB', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://localhost:27017/todolistDB', {useNewUrlParser: true, useUnifiedTopology: true});
+//mongoose.connect('mongodb+srv://shenpai_sharma:17JE003089@cluster0.skz5k.mongodb.net/todolistDB', {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 const itemsSchema = new mongoose.Schema({
